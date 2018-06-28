@@ -1,2 +1,2 @@
-hgraph: hgraph.c hgraph.h hgraphtest.c
-	gcc -o main hgraphtest.c hgraph.c
+hgraph: hgraph.c hgraph.h demo.c
+	gcc -o main demo.c hgraph.c
